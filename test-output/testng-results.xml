@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25582" started-at="2022-05-26T04:10:49Z" finished-at="2022-05-26T04:11:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25582" started-at="2022-05-26T04:10:49Z" finished-at="2022-05-26T04:11:15Z">
+      <class name="RestAssured.RestAssuredProject.PetSwagger">
+        <test-method status="PASS" signature="testcase1()[pri:1, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase1" duration-ms="6004" started-at="2022-05-26T09:40:49Z" description="POST(Create User) using String as ReqBody" finished-at="2022-05-26T09:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:2, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase2" duration-ms="3791" started-at="2022-05-26T09:40:55Z" description="POST(Create User) using JSON file in ReqBody" finished-at="2022-05-26T09:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase4()[pri:3, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase4" duration-ms="3171" started-at="2022-05-26T09:40:59Z" description="PUT(Update User) using String as ReqBody" finished-at="2022-05-26T09:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="testcase5()[pri:4, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase5" duration-ms="3429" started-at="2022-05-26T09:41:02Z" description="PUT(Update User) using JSON file in ReqBody" finished-at="2022-05-26T09:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method status="PASS" signature="testcase3()[pri:5, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase3" duration-ms="3529" started-at="2022-05-26T09:41:06Z" description="GET(Get user by username)" finished-at="2022-05-26T09:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase6()[pri:6, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase6" duration-ms="2916" started-at="2022-05-26T09:41:09Z" description="DELETE user" finished-at="2022-05-26T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method status="PASS" signature="testcase7()[pri:7, instance:RestAssured.RestAssuredProject.PetSwagger@4b9e13df]" name="testcase7" duration-ms="2709" started-at="2022-05-26T09:41:12Z" description="TestCase - 404 validation" finished-at="2022-05-26T09:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+      </class> <!-- RestAssured.RestAssuredProject.PetSwagger -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
